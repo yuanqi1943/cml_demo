@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+  // "compilerOptions": {
+  //   "baseUrl": "./",
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   },
+  //   "composite": true,
+  //   "disableSourceOfProjectReferenceRedirect": true,
+  //   "disableSolutionSearching": true,
+  //   "incremental": true,
+  //   "tsBuildInfoFile": "./.tsbuildinfo"
+  // }
+}

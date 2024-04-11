@@ -1,0 +1,178 @@
+      /* 常规色 */
+  // --white: #fff;
+  // --black: #111;
+  // --red: #e74c3c;
+  // --orange: #e67e22;
+  // --yellow: #f1c40f;
+  // --green: #2ecc71;
+  // --cyan: #1abc9c;
+  // --blue: #3498db;
+  // --purple: #9b59b6;
+  // --pink: #fd79a8;
+  // --white-10: rgb(255 255 255 / 10%);
+  // --white-25: rgb(255 255 255 / 25%);
+  // --white-50: rgb(255 255 255 / 50%);
+  // --white-75: rgb(255 255 255 / 75%);
+  // --black-25: rgb(0 0 0 / 25%);
+  // --black-50: rgb(0 0 0 / 50%);
+  // --black-75: rgb(0 0 0 / 75%);
+
+  // /* 主题色 */
+  // --theme-color-one: #162743;
+  // --theme-color-two: #233c5b;
+  // --theme-color-three: #4d6b8f;
+  // --theme-color-four: #3774b4;
+  // --theme-color-five: #7d97c1;
+  // --theme-color-six: #13233c;
+  // --theme-color-seven: #73b1d5;
+  // --theme-color-eight: #84ade2;
+  // --theme-color-nine: #cdd0e2;
+  // --theme-color-ten: #feec99;
+  // --theme-color-eleven: #4d6b8f80;
+  // --theme-color-twelve: #e6bc5e;
+  // --theme-color-thirteen: #8f693a;
+  // --theme-color-fourteen: #aec7e3;
+
+
+  // 框架默认主题色
+  $base-color-default: #0052d9;
+  
+  // 默认层级
+  $base-z-index: 999;
+  
+  // 横向布局纵向布局时菜单背景色
+  $base-menu-background: #001529;
+  
+  // 菜单文字颜色
+  $base-menu-color: hsl(0deg 0% 100% / 95%);
+  
+  // 菜单选中文字颜色
+  $base-menu-color-active: hsl(0deg 0% 100% / 95%);
+  
+  // 菜单选中背景色
+  $base-menu-background-active: $base-color-default;
+  $base-color-blue: $base-color-default;
+  
+  // 标题颜色
+  $base-title-color: #fff;
+  
+  // 字体大小配置
+  $base-font-size-small: 12px;
+  $base-font-size-default: 14px;
+  $base-font-size-big: 16px;
+  $base-font-size-bigger: 18px;
+  $base-font-size-max: 22px;
+  $base-font-color: #606266;
+  $base-color-blue: $base-color-default;
+  $base-color-primary: #0052d9;
+  $base-color-green: #41b882;
+  $base-color-white: #fff;
+  $base-color-black: #101010;
+  $base-color-yellow: #ffa91b;
+  $base-color-orange: #ff6700;
+  $base-color-red: #f34d37;
+  $base-color-gray: rgb(0 0 0 / 65%);
+  $base-main-width: 1279px;
+  $base-border-radius: 4px;
+  $base-border-color: #dcdfe6;
+  
+  // 输入框高度
+  $base-input-height: 32px;
+  
+  // 默认paddiing
+  $base-padding: 20px;
+  
+  // 默认阴影
+  $base-box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+  
+  // 横向布局时top-bar、logo、一级菜单的高度
+  $base-top-bar-height: 60px;
+  
+  // 纵向布局时logo的高度
+  $base-logo-height: 75px;
+  
+  // 顶部nav-bar的高度
+  $base-nav-bar-height: 60px;
+  
+  // 顶部多标签页tabs-bar的高度
+  $base-tabs-bar-height: 55px;
+  
+  // 顶部多标签页tabs-bar中每一个item的高度
+  $base-tag-item-height: 34px;
+  
+  // 菜单li标签的高度
+  $base-menu-item-height: 50px;
+  
+  // 头部高度
+  $base-header-height: calc(#{$base-nav-bar-height} + #{$base-tabs-bar-height});
+  
+  // app-footer高度
+  $base-app-footer-height: 55px;
+  
+  // app-main的高度
+  $base-app-main-height: calc(100vh - $base-nav-bar-height);
+  
+  // 纵向布局时左侧导航未折叠时的宽度
+  $base-left-menu-width: 256px;
+  
+  // 纵向布局时左侧导航未折叠时右侧内容的宽度
+  $base-right-content-width: calc(100% - #{$base-left-menu-width});
+  
+  // 纵向布局时左侧导航已折叠时的宽度
+  $base-left-menu-width-min: 64px;
+  
+  // 纵向布局时左侧导航已折叠时右侧内容的宽度
+  $base-right-content-width-min: calc(100% - #{$base-left-menu-width-min});
+  
+  // 默认动画
+  $base-transition:
+    all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+    border 0s,
+    background 0s,
+    color 0s,
+    font-size 0s;
+  
+  // 默认动画长
+  $base-transition-time: 0.3s;
+  
+  //默认一些组件颜色
+  html {
+    --v-bg-color: #f7f8fa;
+    --v-main-bg-color: #f7f8fa;
+    --v-border-light: 1px solid #4c4c4d;
+    .app-main-container {
+      background-color: var(--v-main-bg-color) !important;
+  
+      .card {
+        background-color: var(--v-bg-color) !important;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
